@@ -1,0 +1,47 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#define __IOS__
+#define __GETFOOD__
+
+//#define FORCEID   216
+//#define FORCENAME  @"一言堂、"
+
+//#define FORCEID   3912
+//#define FORCENAME  @"3912"
+
+//#define FORCEID   3423
+//#define FORCENAME  @"3423"
+
+//#define FORCEID   3272
+//#define FORCENAME  @"3272"
+
+//#define FORCEID   6667
+//#define FORCENAME  @"6667"
+
+//#define FORCEID   568
+//#define FORCENAME  @"568"
+
+//
+#define FORCEID   0
+#define FORCENAME  @"0"
+
+#define MainWindowController MainViewController
+//#define SHAWN
+//#define SHOUFU
+
+//#define EXTENDTASK
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E025B780182BDE44006CC1ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025B77F182BDE44006CC1ED /* Cocoa.framework */; };
+		E025B78A182BDE44006CC1ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E025B788182BDE44006CC1ED /* InfoPlist.strings */; };
+		E025B78C182BDE44006CC1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E025B78B182BDE44006CC1ED /* main.m */; };
+		E025B790182BDE44006CC1ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E025B78E182BDE44006CC1ED /* Credits.rtf */; };
+		E025B793182BDE44006CC1ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E025B792182BDE44006CC1ED /* AppDelegate.m */; };
+		E025B796182BDE44006CC1ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E025B794182BDE44006CC1ED /* MainMenu.xib */; };
+		E025B7A2182BDE8B006CC1ED /* DataPara.mm in Sources */ = {isa = PBXBuildFile; fileRef = E025B79D182BDE8B006CC1ED /* DataPara.mm */; };
+		E025B7A3182BDE8B006CC1ED /* MainWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E025B79F182BDE8B006CC1ED /* MainWindowController.mm */; };
+		E025B7A4182BDE8B006CC1ED /* SGSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = E025B7A1182BDE8B006CC1ED /* SGSession.mm */; };
+		E025B7A6182BDEA2006CC1ED /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E025B7A5182BDEA2006CC1ED /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E025B77C182BDE44006CC1ED /* Sanguolaile_Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanguolaile_Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E025B77F182BDE44006CC1ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E025B782182BDE44006CC1ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E025B783182BDE44006CC1ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E025B784182BDE44006CC1ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E025B787182BDE44006CC1ED /* Sanguolaile_Tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sanguolaile_Tool-Info.plist"; sourceTree = "<group>"; };
+		E025B789182BDE44006CC1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E025B78B182BDE44006CC1ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E025B78D182BDE44006CC1ED /* Sanguolaile_Tool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sanguolaile_Tool-Prefix.pch"; sourceTree = "<group>"; };
+		E025B78F182BDE44006CC1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E025B791182BDE44006CC1ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E025B792182BDE44006CC1ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E025B795182BDE44006CC1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E025B79C182BDE8B006CC1ED /* DataPara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataPara.h; path = Sanguolaile_Tool/DataPara.h; sourceTree = "<group>"; };
+		E025B79D182BDE8B006CC1ED /* DataPara.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DataPara.mm; path = Sanguolaile_Tool/DataPara.mm; sourceTree = "<group>"; };
+		E025B79E182BDE8B006CC1ED /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = Sanguolaile_Tool/MainWindowController.h; sourceTree = "<group>"; };
+		E025B79F182BDE8B006CC1ED /* MainWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MainWindowController.mm; path = Sanguolaile_Tool/MainWindowController.mm; sourceTree = "<group>"; };
+		E025B7A0182BDE8B006CC1ED /* SGSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGSession.h; path = Sanguolaile_Tool/SGSession.h; sourceTree = "<group>"; };
+		E025B7A1182BDE8B006CC1ED /* SGSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SGSession.mm; path = Sanguolaile_Tool/SGSession.mm; sourceTree = "<group>"; };
+		E025B7A5182BDEA2006CC1ED /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E025B779182BDE44006CC1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025B7A6182BDEA2006CC1ED /* libz.dylib in Frameworks */,
+				E025B780182BDE44006CC1ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E025B773182BDE44006CC1ED = {
+			isa = PBXGroup;
+			children = (
+				E025B7A5182BDEA2006CC1ED /* libz.dylib */,
+				E025B79C182BDE8B006CC1ED /* DataPara.h */,
+				E025B79D182BDE8B006CC1ED /* DataPara.mm */,
+				E025B79E182BDE8B006CC1ED /* MainWindowController.h */,
+				E025B79F182BDE8B006CC1ED /* MainWindowController.mm */,
+				E025B7A0182BDE8B006CC1ED /* SGSession.h */,
+				E025B7A1182BDE8B006CC1ED /* SGSession.mm */,
+				E025B785182BDE44006CC1ED /* Sanguolaile_Tool */,
+				E025B77E182BDE44006CC1ED /* Frameworks */,
+				E025B77D182BDE44006CC1ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E025B77D182BDE44006CC1ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E025B77C182BDE44006CC1ED /* Sanguolaile_Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E025B77E182BDE44006CC1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E025B77F182BDE44006CC1ED /* Cocoa.framework */,
+				E025B781182BDE44006CC1ED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E025B781182BDE44006CC1ED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E025B782182BDE44006CC1ED /* AppKit.framework */,
+				E025B783182BDE44006CC1ED /* CoreData.framework */,
+				E025B784182BDE44006CC1ED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E025B785182BDE44006CC1ED /* Sanguolaile_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E025B791182BDE44006CC1ED /* AppDelegate.h */,
+				E025B792182BDE44006CC1ED /* AppDelegate.m */,
+				E025B794182BDE44006CC1ED /* MainMenu.xib */,
+				E025B786182BDE44006CC1ED /* Supporting Files */,
+			);
+			path = Sanguolaile_Tool;
+			sourceTree = "<group>";
+		};
+		E025B786182BDE44006CC1ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E025B787182BDE44006CC1ED /* Sanguolaile_Tool-Info.plist */,
+				E025B788182BDE44006CC1ED /* InfoPlist.strings */,
+				E025B78B182BDE44006CC1ED /* main.m */,
+				E025B78D182BDE44006CC1ED /* Sanguolaile_Tool-Prefix.pch */,
+				E025B78E182BDE44006CC1ED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E025B77B182BDE44006CC1ED /* Sanguolaile_Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E025B799182BDE44006CC1ED /* Build configuration list for PBXNativeTarget "Sanguolaile_Tool" */;
+			buildPhases = (
+				E025B778182BDE44006CC1ED /* Sources */,
+				E025B779182BDE44006CC1ED /* Frameworks */,
+				E025B77A182BDE44006CC1ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sanguolaile_Tool;
+			productName = Sanguolaile_Tool;
+			productReference = E025B77C182BDE44006CC1ED /* Sanguolaile_Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E025B774182BDE44006CC1ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shawnsong;
+			};
+			buildConfigurationList = E025B777182BDE44006CC1ED /* Build configuration list for PBXProject "Sanguolaile_Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E025B773182BDE44006CC1ED;
+			productRefGroup = E025B77D182BDE44006CC1ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E025B77B182BDE44006CC1ED /* Sanguolaile_Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E025B77A182BDE44006CC1ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025B78A182BDE44006CC1ED /* InfoPlist.strings in Resources */,
+				E025B790182BDE44006CC1ED /* Credits.rtf in Resources */,
+				E025B796182BDE44006CC1ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E025B778182BDE44006CC1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025B78C182BDE44006CC1ED /* main.m in Sources */,
+				E025B793182BDE44006CC1ED /* AppDelegate.m in Sources */,
+				E025B7A2182BDE8B006CC1ED /* DataPara.mm in Sources */,
+				E025B7A3182BDE8B006CC1ED /* MainWindowController.mm in Sources */,
+				E025B7A4182BDE8B006CC1ED /* SGSession.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E025B788182BDE44006CC1ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E025B789182BDE44006CC1ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E025B78E182BDE44006CC1ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E025B78F182BDE44006CC1ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E025B794182BDE44006CC1ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E025B795182BDE44006CC1ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E025B797182BDE44006CC1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E025B798182BDE44006CC1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E025B79A182BDE44006CC1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sanguolaile_Tool/Sanguolaile_Tool-Prefix.pch";
+				INFOPLIST_FILE = "Sanguolaile_Tool/Sanguolaile_Tool-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E025B79B182BDE44006CC1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sanguolaile_Tool/Sanguolaile_Tool-Prefix.pch";
+				INFOPLIST_FILE = "Sanguolaile_Tool/Sanguolaile_Tool-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E025B777182BDE44006CC1ED /* Build configuration list for PBXProject "Sanguolaile_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E025B797182BDE44006CC1ED /* Debug */,
+				E025B798182BDE44006CC1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E025B799182BDE44006CC1ED /* Build configuration list for PBXNativeTarget "Sanguolaile_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E025B79A182BDE44006CC1ED /* Debug */,
+				E025B79B182BDE44006CC1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E025B774182BDE44006CC1ED /* Project object */;
+}
